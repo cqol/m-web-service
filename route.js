@@ -5,7 +5,13 @@ var nine = require('./service/nine'),
 	config = require('./config');
 
 module.exports = function(app) {
-  // 超级九块九详情页
-	app.get('/nine/:id', nine.detail);
-	app.get('/chi/:id', topic.mugo);
+	//添加路由
+	app.get('/detail', function * () {
+		var viewData = {
+			title: 'detail',
+			keywords: 'keywords',
+			disc: 'disc'
+		};
+		yield this.render('detail' , viewData);
+	});
 };
