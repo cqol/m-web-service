@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	port: 3003,
+	port: 3007	,
 	apiPrefix: '/api/v1',
 	log: {
 		name: 'm-web-service',
