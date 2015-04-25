@@ -1,7 +1,7 @@
 #!/bin/sh
 
-appname="m-chaoji99-service"
-appdir="/home/app/nodejs/m-chaoji99-service"
+appname="m-web-service"
+appdir="/home/app/nodejs/m-web-service"
 logdir="/home/app/nodejs/logs"
 
 node="${appdir}/bin/node"
