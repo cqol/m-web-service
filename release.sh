@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dirname="m-chaoji99-service"
+dirname="m-web-service"
 version=$1
 
 # git
