@@ -1,0 +1,57 @@
+{
+  "name": "m-chaoji99-service",
+  "version": "0.0.1",
+  "description": "chaoji99 mobile website service",
+  "private": true,
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "./tool.sh restart",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@199.155.122.220:tts-node/m-chaoji99-service.git"
+  },
+  "keywords": [
+    "taotaosou",
+    "mobile"
+  ],
+  "author": "chenqi",
+  "license": "tts",
+  "dependencies": {
+    "co": "^3.1.0",
+    "co-body": "^1.0.0",
+    "co-urllib": "^0.2.3",
+    "debug": "^2.1.0",
+    "koa": "^0.13.0",
+    "koa-etag": "^2.0.0",
+    "koa-fresh": "0.0.3",
+    "koa-gzip": "^0.1.0",
+    "koa-hbs": "^0.5.0",
+    "koa-jsonp": "^0.1.2",
+    "koa-logger": "^1.2.2",
+    "koa-no-cache": "^1.0.0",
+    "koa-redis-cache": "^0.5.0",
+    "koa-router": "^3.7.0",
+    "koa-static-cache": "^2.0.0",
+    "koa-unique-manifest": "^1.0.0",
+    "lodash": "^2.4.1",
+    "logfilestream": "^1.0.1",
+    "mysql": "^2.5.3",
+    "requisition": "^1.1.0",
+    "thunkify": "^2.1.2",
+    "urllib": "^2.2.1"
+  },
+  "devDependencies": {
+    "co-mocha": "*",
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-nodemon": "*",
+    "mocha": "*",
+    "replace": "^0.3.0",
+    "should": "*"
+  }
+}

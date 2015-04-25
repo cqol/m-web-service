@@ -1,0 +1,22 @@
+CACHE MANIFEST
+###creatBy 2015-05-21 10:42###
+#static files cache manifest of TTS M site
+#CACHE:
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/base.js
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/index.css
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/index.js
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/detail.css
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/comp.css
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/bijia.css
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/album.css
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/uc.css
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/app.js
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/album.js
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/zt.js
+http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/uc.js
+
+NETWORK:
+*
+
+
+

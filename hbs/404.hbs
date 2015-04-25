@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html classes="404">
+  <head>
+    <meta charset="utf-8">
+    {{> meta}}
+    <title>{{title}}</title>
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="description" content="{{disc}}">
+    <link rel="stylesheet" href="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/index.css"/>
+    {{> ga}}
+  </head>
+  <body>
+    <div id="wrapper" style="background-color:#f7f7f7;">
+      <header id="header">
+        <a href="javascript:window.history.go(-1);" id="mBack"></a>
+        <h1>淘淘搜</h1>
+        <span class="bar-more" id="navigationBar"></span>
+      </header>
+
+      <section class="error-content" id="error400">
+        <canvas id="canvas" width="400" height="500">
+          <img class="focus-img" src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/images/index/404_default.png" alt="">
+        </canvas>
+        <img class="focus-img" id="focusImg" src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/images/index/404.png" alt="">
+      </section>
+
+      <a href="http://m.taotaosou.com" class="turn-back">回首页逛逛</a>
+      
+
+    </div>
+    {{> apps}}
+    
+    <script src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/base.js"></script>
+    
+    <script src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/index.js"></script>
+  </body>
+</html>

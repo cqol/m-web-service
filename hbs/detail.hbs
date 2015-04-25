@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html classes="detail" manifest="/cache.manifest?====">
+  <head>
+    {{> meta}}
+    <title>{{title}}</title>
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="description" content="{{disc}}">
+    <link rel="stylesheet" href="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/styles/detail.css"/>
+    {{> ga}}
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <a href="javascript:window.history.go(-1);" id="m_back"></a>
+        <h1>商品详情</h1>
+        <span class="bar-more" id="navigationBar"></span>
+      </header>
+
+      <!-- 焦点图 -->
+      <figure id="focus_img">
+        <a id="focus_img_box" class="img-box load" href="{{focus.href}}" data-ga="商品详情页|去淘宝|图片">
+          <img id="show_img" src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/images/common/ajax_load.gif" alt="" data-origin="{{focus.img}}" data-id="{{cid}}">
+          <div id="detail_crumbs" class="clearfix">
+            <span class="price">￥{{price}}</span>
+            <span class="num">销量{{num}}</span>
+          </div>
+        </a>
+        <figcaption class="discrp">{{focus.description}}</figcaption>
+      </figure>
+
+      <!-- 购买按钮 -->
+      <section id="detail_btn" class="clearfix">
+        {{#is hasSame true}}<a href="{{compare}}" class="detail_txs" data-ga="商品详情页|同款比价">同款比价 <span>{{sameNum}}件</span></a>{{/is}}
+        {{#is hasSame false}}<a href="javascript:void(0);" class="detail_disable" data-ga="商品详情页|同款比价">同款比价 <span>0件</span></a>{{/is}}
+        <a href="{{focus.href}}" class="detail_buy" data-ga="商品详情页|去淘宝|按钮">立即购买</a>
+      </section>
+      
+
+      <section id="priceHistory">
+        <h2>价格曲线</h2>
+        <div id="drawingbox">
+          <div id="drawing"></div>
+          <div id="priceLine">
+            <span>300</span>
+            <span>300</span>
+            <span>300</span>
+            <span>300</span>
+          </div>
+          <div id="timeLine">
+            <span>11-10</span>
+            <span>11-10</span>
+            <span>11-10</span>
+            <span>11-10</span>
+          </div>
+          <div id="maxMin">
+            <span id="priceMax">最高价￥280</span>
+            <span id="priceMin">最低价￥160</span>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 猜你喜欢 -->
+      <section class="guess_like" id="guessLike">
+        <h2>猜你喜欢</h2>
+        <div id="hbs">
+          
+        </div>
+        <!-- {{> waterfall}} -->
+        <a href="{{similar}}" data-ga="商品详情页|猜你喜欢|查看更多" id="loadmore"><span>查看更多</span></a>
+      </section>
+
+
+      <!-- 精品推荐 -->
+      <section class="guess_like" id="detailAdBox">
+        <h2>精品推荐</h2>
+        <div id="detailAd">
+          
+        </div>
+      </section>
+
+
+      {{> footer}}
+
+
+
+    </div>
+    {{> apps}}
+
+    <script src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/base.js"></script>
+    <script src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/libs/svg.js"></script>
+    
+    <script type="text/javascript">var tSearchCid = '{{cid}}',tSearchPid = '{{pid}}',same_num = '{{same_num}}';</script>
+    <script src="http://img.taotaosou.cn/tts-mobile/v7/0.0.1/scripts/app.js"></script>
+  </body>
+</html>
