@@ -1,6 +1,6 @@
 # m-web-service
 
-### 网站m版-服务
+### node-服务
 
 ### 运行环境
 * node: 0.12
@@ -11,7 +11,7 @@
 make update
 
 # 运行
-npm start
+gulp nodemon
 ```
 
 ### 目录结构及说明
@@ -19,9 +19,4 @@ npm start
 ### api
 
 ### model
-
-### 各页面调用接口
-
-* 首页
-  - service/index
 
