@@ -4,8 +4,8 @@ TIMEOUT = 20000
 MOCHA_OPTS =
 
 PRO = ~/dev/m-web-service
-MPRO = ~/gitlab/tts-mobile
-HBS = ~/gitlab/tts-mobile/hbs
+MPRO = ~/gitlab/m-web-static
+HBS = ~/gitlab/m-web-static/hbs
 
 test:
 	@NODE_ENV=develop ./node_modules/mocha/bin/mocha --harmony \

@@ -10,6 +10,9 @@
 # 更新
 make update
 
+# 拷贝模板
+make copy
+
 # 运行
 gulp nodemon
 ```
