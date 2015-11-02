@@ -14,4 +14,7 @@ module.exports = function(app) {
 		};
 		yield this.render('detail' , viewData);
 	});
+	app.get('/', function * () {
+		yield this.render('index');
+	});
 };

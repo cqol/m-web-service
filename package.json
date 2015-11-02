@@ -37,7 +37,7 @@
     "koa-redis-cache": "^0.5.0",
     "koa-router": "^3.7.0",
     "koa-static-cache": "^2.0.0",
-    "koa-unique-manifest": "^1.0.0",
+    "koa-unique-manifest": "https://github.com/coderhaoxin/koa-unique-manifest/archive/master.tar.gz",
     "lodash": "^2.4.1",
     "logfilestream": "^1.0.1",
     "mysql": "^2.5.3",
